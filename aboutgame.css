@@ -1,0 +1,567 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://genshin.hoyoverse.com/_nuxt/img/fixedBackground.f2d6a3a.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Navbar */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
+}
+
+nav .logo {
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: -1%;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.links {
+    margin-top: -7%;
+}
+
+nav ul li a {
+    line-height: 70px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+.genshinlogo {
+    position: absolute;
+    top: 11%;
+    left: -2%;
+    width: 22%;
+}
+
+/* First picture */
+
+.first_picture {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+
+.slogan {
+    position: absolute;
+    left: 50%;
+    bottom: 15.2%;
+    transform: translateX(-50%);
+    width: 740px;
+    height: 180ox;
+    background: center / no-repeat;
+}
+/* Left Picture and Texts */
+
+.game_feature {
+    width: 100%;
+    height: 100vh;
+    position: fixed
+}
+
+.head_left {
+    text-align: center;
+    display: flex;
+    font-size: 48px;
+    margin-left: -20%;
+    color: white;
+    margin-top: 12%;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.left h2 .head,
+.left p {
+    color: white;
+    
+}
+
+.left{
+    text-align: center;
+    margin-left: 20%;
+}
+
+.p_text_left {
+    line-height: 26px;
+    font-size: 20px;
+    color: #78604b !important; 
+    margin-top: -5%;    
+}
+
+.intro_title_left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 35px;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #654f42;
+    line-height: 35px;
+    
+}
+
+.left_content {
+    padding: 46px;
+    width: 350px;
+    height: 398px;
+    background-image: url(https://genshin.hoyoverse.com/_nuxt/img/introBackground.77bb3df.png);
+    background-repeat: no-repeat;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: left;
+    position: absolute ;
+    top: 128%;
+    right: 60%;
+    margin-left: 18%;
+}
+
+.p_text_left {
+    line-height: 26px;
+    font-size: 18px;
+    color: #78604b !important; 
+    margin-top: -5%;    
+}
+
+.intro_title_left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 35px;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #654f42;
+    line-height: 35px;
+    
+}
+
+/* Right Pictures and Texts */
+
+.right {
+    text-align: center;
+    margin-left: -17%;
+    margin-top: 5%;
+}
+
+.p_text_right {
+    line-height: 26px;
+    font-size: 19px;
+    color: #78604b !important; 
+    margin-top: -6%;    
+}
+
+.intro_title_right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 35px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #654f42;
+    line-height: 35px;
+}
+
+.right_content {
+    padding: 46px;
+    width: 350px;
+    height: 398px;
+    background-image: url(https://genshin.hoyoverse.com/_nuxt/img/introBackground.77bb3df.png);
+    background-repeat: no-repeat;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: left;
+    position: absolute ;
+    top: 234%;
+    right: 59.5%;
+    margin-left: 18%;
+}
+
+/* Left_two Picture and Texts */
+
+.left_two{
+    text-align: center;
+    margin-left: 21%;
+    margin-top: 5%;
+}
+
+.p_text_left_two {
+    line-height: 26px;
+    font-size: 20px;
+    color: #78604b !important; 
+    margin-top: -5%;   
+}
+
+.intro_title_left_two {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 35px;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #654f42;
+    line-height: 35px;
+    
+}
+
+.left_two_content {
+    padding: 46px;
+    width: 350px;
+    height: 398px;
+    background-image: url(https://genshin.hoyoverse.com/_nuxt/img/introBackground.77bb3df.png);
+    background-repeat: no-repeat;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: left;
+    position: absolute ;
+    top: 181%;
+    right: 15%;
+    margin-left: 18%;
+}
+
+.p_text_left_two {
+    line-height: 26px;
+    font-size: 18px;
+    color: #78604b !important; 
+    margin-top: -5%;    
+}
+
+.intro_title_left_two {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 35px;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #654f42;
+    line-height: 35px;
+    
+}
+
+/* right two text and images */
+
+.right_two {
+    margin-left: 16%;
+    margin-top: 5%;
+}
+
+.intro_title_right_two {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 35px;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #654f42;
+    line-height: 35px;
+}
+
+
+.p_text_right_two {
+    line-height: 26px;
+    font-size: 18px;
+    color: #78604b !important; 
+    margin-top: -5%;    
+}
+
+.right_two_content {
+    padding: 46px;
+    width: 350px;
+    height: 398px;
+    background-image: url(https://genshin.hoyoverse.com/_nuxt/img/introBackground.77bb3df.png);
+    background-repeat: no-repeat;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: left;
+    position: absolute ;
+    top: 287%;
+    right: 15%;
+    margin-left: 18%;
+}
+
+/* left third text and images */
+
+.left_third {
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+
+.p_text_left_third {
+    line-height: 26px;
+    font-size: 18px;
+    color: #78604b !important; 
+    margin-top: -6%;    
+}
+
+.intro_title_left_third {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 35px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #654f42;
+    line-height: 35px;
+}
+
+.left_third_content {
+    padding: 46px;
+    width: 350px;
+    height: 398px;
+    background-image: url(https://genshin.hoyoverse.com/_nuxt/img/introBackground.77bb3df.png);
+    background-repeat: no-repeat;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: left;
+    position: absolute ;
+    top: 340%;
+    right: 59.5%;
+    margin-left: 18%;
+}
+
+/* Screenshots  */
+
+.guide_screenshot {
+    margin-top: 5%;
+    margin-bottom: 8%;
+    margin-left: 20%;
+}
+
+.screenshot_feature {
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.guide_screenshot_swiper {
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+    height: 720px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.guide_screenshot_swiper, .guide_screenshot_img {
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+    height: 720px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* Guide Platform */
+
+.guide_platform {
+    display: block;
+    margin-left: 38%;
+    width: auto;
+    height: 170px;
+    margin-top: 15%;
+   
+}
+
+.guide_platform_go {
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    margin-right: 59%;
+    margin-top: -5%;
+    text-transform: uppercase;
+}
+
+/* Screenshot photos */
+
+.slideshow {
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 16%;
+    margin-top: 5%;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    animation: slide 12s infinite;
+}
+
+.slide {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: -100%;
+    }
+
+    40% {
+        margin-left: -200%;
+    }
+
+    60% {
+        margin-left: -300%;
+    }
+
+    80% {
+        margin-left: -400%;
+    }
+}
+
+/* bottom parts */
+  
+.bottom {
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    margin-top: 7%;
+    position: absolute;
+}
+
+
+.icons {
+    position: relative;
+    width: 1280px;
+    height: 52px;
+    letter-spacing: 100px;
+    margin-left: -640px;
+    display: flex;
+    justify-content: center;
+    margin-left: 19%;
+    margin-top: 1%;
+}
+
+.bottom_text {
+    color: white;
+    margin-top: 12%;
+    display: block;
+    background-color: #111;
+}
+
+.bottom_text p {
+    margin-left: 2%;
+}
+
+.bottom_text h3 {
+    margin-left: 2%;
+}
+
+.bottom_text {
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    padding: 40px 0;
+    border-top: 1px solid #323232;
+}
+
+.lowest {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 25%;
+}
+
+.lowest_text {
+    color: #919191;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 2%;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 33%;
+}
+
+.hoyoverse_icon {
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 35%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
