@@ -43,7 +43,7 @@ nav .logo {
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
-    margin-top: -1%;
+    margin-top: -3.5%;
 }
 
 nav ul{
@@ -55,7 +55,8 @@ nav ul{
 }
 
 .links {
-    margin-top: -7%;
+    margin-top: -17%;
+    
 }
 
 nav ul li a {
@@ -66,6 +67,7 @@ nav ul li a {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 25%;
 }
 
 nav ul li a:hover {
@@ -115,8 +117,8 @@ nav ul li a:hover {
 
 .genshinlogo {
     position: absolute;
-    top: 11%;
-    left: -2%;
+    top: 17%;
+    left: -3%;
     width: 22%;
 }
 
@@ -128,8 +130,8 @@ nav ul li a:hover {
     color: #fff;
     text-align: center;
     text-shadow: 0 0 10px rgba(114,71,21,0.68),0 0 10px rgba(114,71,21,0.68);
-    margin-left: 33%;
-    margin-top: 37%;
+    margin-left: 28.5%;
+    margin-top:30%;
 }
 
 .ps5ps4 {
@@ -189,7 +191,9 @@ nav ul li a:hover {
 }
 
 .downloadlayout {
-    margin-left: 10%;
+    margin-left: 10.4%;
+    
+    
 }
 
 .whitebackground {
@@ -201,7 +205,7 @@ nav ul li a:hover {
 .videobutton {
     position: absolute;
     margin-left: 50%;
-    margin-top: 33%;
+    margin-top: 28%;
 }
 
 
@@ -217,7 +221,7 @@ nav ul li a:hover {
 .cityname {
     position: absolute;
     left: 44%;
-    top: 107%;
+    top: 110%;
     font-size: 28px;
     color: white;
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
@@ -243,13 +247,12 @@ nav ul li a:hover {
 
 .Fontainename {
     margin-left: 5%;
-    margin-top: 125%; 
+    margin-top: 110%; 
 }
 
 .Natlanname {
     margin-left: 19%;
-    margin-top: 118%; 
-    
+    margin-top: 40%; 
 
 }
 
@@ -264,6 +267,7 @@ nav ul li a:hover {
    scale: 1.1;
    transition: all 1s ease-in-out;
    overflow: hidden;
+   
 }
 
 .liyuecity:hover{
@@ -303,6 +307,7 @@ nav ul li a:hover {
     width: 100%;
     background-size: cover;
     position: absolute;
+    margin-top: 10%;
 }
 
 .icons {
@@ -313,7 +318,7 @@ nav ul li a:hover {
     margin-left: -640px;
     display: flex;
     justify-content: center;
-    margin-left: 19%;
+    margin-left: 12%;
     margin-top: 1%;
 }
 
@@ -322,6 +327,7 @@ nav ul li a:hover {
     margin-top: 5%;
     display: block;
     background-color: #111;
+    margin-top: 40%;
 }
 
 .bottom_text p {
@@ -352,14 +358,14 @@ nav ul li a:hover {
     font-size: 10px;
     margin-top: 2%;
     position: absolute;
-    margin-left: 25%;
-    margin-top: 25%;
+    margin-left: 19%;
+    margin-top: 28%;
 }
 
 .hoyoverse_icon {
     position: absolute;
-    margin-left: 33%;
-    margin-top: 28%;
+    margin-left: 29%;
+    margin-top: 31%;
     justify-content: center;
     display: flex;
     align-items: center;
